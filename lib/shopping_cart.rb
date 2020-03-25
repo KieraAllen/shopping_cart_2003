@@ -6,4 +6,7 @@ class ShoppingCart
     @capacity = capacity
   end
 
+  def capacity
+    @capacity.to_i
+  end
 end
