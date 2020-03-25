@@ -15,4 +15,10 @@ class ShoppingCartTest < Minitest::Test
 
     assert_instance_of ShoppingCart, @cart
   end
+
+  def test_it_has_a_name
+
+    assert_equal "King Soopers", @cart.name
+
+  end
 end
